@@ -28,7 +28,7 @@ namespace Platformer.Mechanics
         /// Is the entity currently sitting on a surface?
         /// </summary>
         /// <value></value>
-        public bool IsGrounded { get; private set; }
+        public bool IsGrounded { get; protected set; }
 
         protected Vector2 targetVelocity;
         protected Vector2 groundNormal;
