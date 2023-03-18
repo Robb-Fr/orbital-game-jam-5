@@ -1,0 +1,416 @@
+{
+    "array": [
+        {
+            "name": "",
+            "sentence": "Le dialogue de fin est en DLC! Seulement au prix de la note de 6 au projet de SHS."
+        },
+        {
+            "name": "",
+            "sentence": "Oh ça va, c'était une petite blague. On détend l'atmosphère."
+        },
+        {
+            "name": "",
+            "sentence": "Bon, voilà le vrai dialogue."
+        },
+        {
+            "name": "Circé",
+            "sentence": "Oh… qui êtes-vous ? "
+        },
+        {
+            "name": "",
+            "sentence": "…Circé ? "
+        },
+        {
+            "name": "",
+            "sentence": "Alors je vous arrête tout de suite, je ne suis pas intéressé par vos avances tout à fait déplacées."
+        },
+        {
+            "name": "",
+            "sentence": "Je suis là au nom de l’HISTOIRE.\n"
+        },
+        {
+            "name": "Circé",
+            "sentence": "…"
+        },
+        {
+            "name": "Circé",
+            "sentence": "Pardon ?"
+        },
+        {
+            "name": "",
+            "sentence": "Ecoutez, ne rendez pas ça plus difficile que ça ne l’est déjà. Je n’ai pas le temps pour une relation..."
+        },
+        {
+            "name": "",
+            "sentence": "en ce moment voyez-vous. En fait pour tous vous dire, c’est compl...\n"
+        },
+        {
+            "name": "Circé",
+            "sentence": "Mais ça va bien oui ? Déjà je ne vous ai jamais vu, et croyez bien que je n’aurais JAMAIS aucun..."
+        },
+        {
+            "name": "Circé",
+            "sentence": " intérêt dans un gringalet comme vous. Les Hommes c’est bon, j’ai assez donné.\n"
+        },
+        {
+            "name": "",
+            "sentence": "Hmm, c’était donc bien un rêve..."
+        },
+        {
+            "name": "Circé",
+            "sentence": "Hein ? "
+        },
+        {
+            "name": "Circé",
+            "sentence": "Bon c’est bientôt fini ces interactions lunaires ? Qu’est-ce que vous voulez ? Et ne faites pas..."
+        },
+        {
+            "name": "Circé",
+            "sentence": " le malin, j’ai une forêt entière remplie d’animaux qui vous mangeront dans la seconde si je le demande."
+        },
+        {
+            "name": "",
+            "sentence": "Excusez-moi il y a dû y avoir un mal entendu. Je suis là pour enquêter à votre sujet. Pour être..."
+        },
+        {
+            "name": "",
+            "sentence": " honnête, les avis sont assez contrastés.\n"
+        },
+        {
+            "name": "Circé",
+            "sentence": "Aaah je vois. Vous avez dû entendre les récits de ces vieux croutons à mon sujet. "
+        },
+        {
+            "name": "",
+            "sentence": "Euh vous parlez de Homère, Ovide et Virgile ?"
+        },
+        {
+            "name": "Circé",
+            "sentence": "Précisément."
+        },
+        {
+            "name": "",
+            "sentence": "Probablement oui."
+        },
+        {
+            "name": "Circé",
+            "sentence": "Evidemment ! Ces pauvres hommes ne peuvent pas comprendre qu’une femme puisse être indépendante..."
+        },
+        {
+            "name": "Circé",
+            "sentence": ", heureuse, et ne pas dépendre d’un homme pour s’épanouir… C’est désolant. Avez-vous lu le roman..."
+        },
+        {
+            "name": "Circé",
+            "sentence": "de Madeleine Miller a mon sujet ?\n"
+        },
+        {
+            "name": "",
+            "sentence": "Jamais entendu parler."
+        },
+        {
+            "name": "Circé",
+            "sentence": "Bien sûr... Je n’en attendais pas moins de vous."
+        },
+        {
+            "name": "",
+            "sentence": "Ok, aïe."
+        },
+        {
+            "name": "Circé",
+            "sentence": "Si vous lisez son livre, vous saurez."
+        },
+        {
+            "name": "",
+            "sentence": "Alors je vous avoue que ça va être un peu compliqué niveau timing. J’ai le bateau qui revient me..."
+        },
+        {
+            "name": "",
+            "sentence": "chercher dans la soirée, ensuite je dois rentrer et passer par l’alchimiste pour apporter des..."
+        },
+        {
+            "name": "",
+            "sentence": "cigarettes à Mallieu…\n"
+        },
+        {
+            "name": "Circé",
+            "sentence": "BON et bien je vais vous le dire moi. Commençons par le début. Je suis née d’une nymphe et du..."
+        },
+        {
+            "name": "Circé",
+            "sentence": "dieu du soleil. Vous me trouvez surement agréable à l’œil en tant qu’humain\n"
+        },
+        {
+            "name": "",
+            "sentence": "…"
+        },
+        {
+            "name": "Circé",
+            "sentence": "…"
+        },
+        {
+            "name": "",
+            "sentence": "…"
+        },
+        {
+            "name": "Circé",
+            "sentence": "Là c’est le moment ou vous acquiescez."
+        },
+        {
+            "name": "",
+            "sentence": "ah, euh, oui ?"
+        },
+        {
+            "name": "Circé",
+            "sentence": "Bien.  Mais pour les dieux, je suis une disgrâce. J’étais la plus laide de toute ma fratrie, et..."
+        },
+        {
+            "name": "Circé",
+            "sentence": "toute ma vie on s’est moqué de moi. Un jour, un humain a croisé mon chemin et est tombé amoureux..."
+        },
+        {
+            "name": "Circé",
+            "sentence": "de moi... Il me regardait comme on ne m’avait jamais regardée auparavant… Pour la première..."
+        },
+        {
+            "name": "Circé",
+            "sentence": "fois, j’étais admirée et aimée. Un certain Glaucus. Je ne supportais pas l’idée que nous puissions..."
+        },
+        {
+            "name": "Circé",
+            "sentence": "un jour être séparés par la mort... Ainsi j’ai tout fait pour le rendre immortel. J’avais entendu..."
+        },
+        {
+            "name": "Circé",
+            "sentence": "cette rumeur qu’il existait certaines fleurs qui révélaient la véritable nature des gens...."
+        },
+        {
+            "name": "Circé",
+            "sentence": " J’étais persuadée que je pouvais le transformer en dieu, qu’il était destiné à de grandes choses."
+        },
+        {
+            "name": "",
+            "sentence": "Et alors ? ça a marché ? "
+        },
+        {
+            "name": "Circé",
+            "sentence": "Oui, malheureusement. "
+        },
+        {
+            "name": "",
+            "sentence": "Malheureusement ? "
+        },
+        {
+            "name": "Circé",
+            "sentence": "Malheureusement parce que la seconde ou il est devenu divin, il m’a vu comme le reste des dieux..."
+        },
+        {
+            "name": "Circé",
+            "sentence": ". Comme un laideron indigne de son temps et son intérêt. Globalement, il a filé aller se taper ma sœur."
+        },
+        {
+            "name": "",
+            "sentence": "Ah oui, pas cool."
+        },
+        {
+            "name": "Circé",
+            "sentence": "Oui, ça ne fait pas vraiment du bien à l’estime, je ne vais pas vous le cacher."
+        },
+        {
+            "name": "",
+            "sentence": "Et ensuite ?"
+        },
+        {
+            "name": "Circé",
+            "sentence": "Ensuite comme j’étais folle de rage que cette horrible personne qu’était ma sœur ait volé l’amour..."
+        },
+        {
+            "name": "Circé",
+            "sentence": "de ma vie, j’ai voulu la faire consommer les fleurs, elle aussi. Comme ça tout le monde verrais..."
+        },
+        {
+            "name": "Circé",
+            "sentence": "à quel point sa beauté n’est qu’une façade, et que son cœur est sombre.\n"
+        },
+        {
+            "name": "Circé",
+            "sentence": "Donc c’est ce que j’ai fait, et elle s’est transformée en ce monstre affreux qu’elle est toujours..."
+        },
+        {
+            "name": "Circé",
+            "sentence": "maintenant. Croyez-moi je n’aimais pas ma sœur mais jamais je n’aurais pensé que le sort soit..."
+        },
+        {
+            "name": "Circé",
+            "sentence": "si lourd. C’est après que j’ai appris que les fleurs n’avaient en fait aucun pouvoir, et que ..."
+        },
+        {
+            "name": "Circé",
+            "sentence": "c’est moi, à travers mon intention, qui avait transformé Glaucus et Scylla.\n"
+        },
+        {
+            "name": "",
+            "sentence": "Ah quand même. Elle ne doit pas vous porter dans son cœur."
+        },
+        {
+            "name": "Circé",
+            "sentence": "Plus le temps passe, plus elle perd la notion de la personne qu’elle fut..."
+        },
+        {
+            "name": "Circé",
+            "sentence": " C’est triste, et ce n’est pas que je voulais."
+        },
+        {
+            "name": "Circé",
+            "sentence": "Je voulais seulement que les autres la voient comme moi je la voyais."
+        },
+        {
+            "name": "Circé",
+            "sentence": "Vous comprenez ? \n"
+        },
+        {
+            "name": "",
+            "sentence": "Oui."
+        },
+        {
+            "name": "Circé",
+            "sentence": "Donc ensuite mon père m’a expatriée sur cette île, pour que j’arrête d’attirer la honte sur la..."
+        },
+        {
+            "name": "Circé",
+            "sentence": "famille. C’était voulu comme une punition, mais j’ai adoré ma vie ici."
+        },
+        {
+            "name": "Circé",
+            "sentence": "L’indépendance, ma relation avec mes animaux, la vie est douce… \n"
+        },
+        {
+            "name": "",
+            "sentence": "Et c’est quoi ces histoires de cochons ? "
+        },
+        {
+            "name": "Circé",
+            "sentence": "Ah… ça."
+        },
+        {
+            "name": "",
+            "sentence": "Oui, ce n’est quand même pas fou de transformer des gens en cochons, je ne vais pas vous cacher..."
+        },
+        {
+            "name": "",
+            "sentence": " que ça ternit un peu votre image.\n"
+        },
+        {
+            "name": "Circé",
+            "sentence": "Vous ne comprenez pas. La suite de mon histoire vous éclairera. Un jour un équipage est arrivé ..."
+        },
+        {
+            "name": "Circé",
+            "sentence": "sur mon île. Bien sûr je les ai accueillis et leur ai fourni le souper. Ils ont voulu remercier..."
+        },
+        {
+            "name": "Circé",
+            "sentence": " « le maitre de maison », et toute fière, je leurs ai dit que c’était moi. \n"
+        },
+        {
+            "name": "Circé",
+            "sentence": "Grave erreur."
+        },
+        {
+            "name": "Circé",
+            "sentence": "Quand ils ont compris qu’il n’y avait pas d’homme sur l’île, et que je n’étais la propriété de ..."
+        },
+        {
+            "name": "Circé",
+            "sentence": "personne... ils ont… ils ont abusé de moi, en vous passant les détails.\n"
+        },
+        {
+            "name": "",
+            "sentence": "C’est terrible... Je suis vraiment navré."
+        },
+        {
+            "name": "Circé",
+            "sentence": "Oui, je ne souhaiterais ça à personne. Après cet incident, je me suis jurée que plus jamais je ..."
+        },
+        {
+            "name": "Circé",
+            "sentence": "ne laisserais un homme prendre l’avantage sur moi. J’ai mis au point une concoction que je leur..."
+        },
+        {
+            "name": "Circé",
+            "sentence": " ai fait manger au travers du repas, et ensuite je les ai tous transformés en cochons. Parce que..."
+        },
+        {
+            "name": "Circé",
+            "sentence": "c’est ce qu’ils sont, des porcs. Je n’ai fait que tenir un miroir devant leurs yeux.\n"
+        },
+        {
+            "name": "",
+            "sentence": "Ah je comprends mieux oui… Effectivement les autres auteurs ne vous dépeignaient pas vraiment..."
+        },
+        {
+            "name": "",
+            "sentence": "sous cette lumière.\n"
+        },
+        {
+            "name": "Circé",
+            "sentence": "Je sais oui. Ovide adore raconter à qui veut bien l’entendre que je suis terriblement jalouse, ..."
+        },
+        {
+            "name": "Circé",
+            "sentence": "que je manipule les herbes pour semer la peur et la détresse… Homère est le moins dur j’imagine..."
+        },
+        {
+            "name": "Circé",
+            "sentence": ", il dit que je suis quand même sympa – une fois qu’on m’a montré « qui était le patron »."
+        },
+        {
+            "name": "Circé",
+            "sentence": " En parlant de ça, je ne sais pas si vous avez eu l’occasion de consulter le divin tabl..\n"
+        },
+        {
+            "name": "",
+            "sentence": "LE DIVIN TABLEAU ???????"
+        },
+        {
+            "name": "Circé",
+            "sentence": "…"
+        },
+        {
+            "name": "Circé",
+            "sentence": "lui-même, vous en avez entendu parler ? "
+        },
+        {
+            "name": "",
+            "sentence": "Bien sûr, Mallieu Pettet et Mattoni Capeo m’en parlent depuis février dernier. "
+        },
+        {
+            "name": "Circé",
+            "sentence": "Ahhh, Mallieu Pettet et Mattoni Capeo, ces noms me sont familiers. Des hommes brillants. Et qui..."
+        },
+        {
+            "name": "Circé",
+            "sentence": " savent généreusement noter les étudiants méritants qui se rajoutent la difficulté totalement i..."
+        },
+        {
+            "name": "Circé",
+            "sentence": "nutile de faire un jeu vidéo fonctionnel pour leur projet de SHS…\n"
+        },
+        {
+            "name": "",
+            "sentence": "hein ? "
+        },
+        {
+            "name": "Circé",
+            "sentence": "hein ? "
+        },
+        {
+            "name": "",
+            "sentence": "Puis-je voir ce tableau ?"
+        },
+        {
+            "name": "Circé",
+            "sentence": "Bien sûr. Prenez-en bien soin. Je n’ai aucune idée de pourquoi je le possède pour tout vous dire..."
+        }
+    ]
+}
