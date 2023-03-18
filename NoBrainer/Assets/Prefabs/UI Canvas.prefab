@@ -1225,14 +1225,15 @@ MonoBehaviour:
     \n\n- Arrow keys to Move\n- Space bar to Jump\n\n- Press Escape to unpause and
     start playing!"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d393f12bd75574ef991a7a2c74b29c69, type: 2}
+  m_sharedMaterial: {fileID: 21623678745554260, guid: d393f12bd75574ef991a7a2c74b29c69,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294769916
+    rgba: 4294835709
   m_fontColor: {r: 0.990566, g: 0.990566, b: 0.990566, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -1245,7 +1246,7 @@ MonoBehaviour:
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
   m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: 0
+  m_TextStyleHashCode: -1183493901
   m_overrideHtmlColors: 0
   m_faceColor:
     serializedVersion: 2
@@ -1259,7 +1260,7 @@ MonoBehaviour:
   m_fontStyle: 0
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
-  m_textAlignment: 257
+  m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
   m_lineSpacing: 0
@@ -1559,10 +1560,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Platformer Template
+  m_text: NoBrainer
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d393f12bd75574ef991a7a2c74b29c69, type: 2}
+  m_sharedMaterial: {fileID: 21623678745554260, guid: d393f12bd75574ef991a7a2c74b29c69,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1581,21 +1583,21 @@ MonoBehaviour:
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
   m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: 0
+  m_TextStyleHashCode: -1183493901
   m_overrideHtmlColors: 0
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 55.5
+  m_fontSize: 62
   m_fontSizeBase: 72
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_fontStyle: 32
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
-  m_textAlignment: 258
+  m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
   m_lineSpacing: 0
@@ -1942,8 +1944,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3854812130382821519, guid: 7177f94ecf0cf1043a4790c439edbad6,
         type: 3}
+      propertyPath: m_textAlignment
+      value: 65535
+      objectReference: {fileID: 0}
+    - target: {fileID: 3854812130382821519, guid: 7177f94ecf0cf1043a4790c439edbad6,
+        type: 3}
       propertyPath: m_fontColor32.rgba
       value: 4284831820
+      objectReference: {fileID: 0}
+    - target: {fileID: 3854812130382821519, guid: 7177f94ecf0cf1043a4790c439edbad6,
+        type: 3}
+      propertyPath: m_TextStyleHashCode
+      value: -1183493901
+      objectReference: {fileID: 0}
+    - target: {fileID: 3854812130382821519, guid: 7177f94ecf0cf1043a4790c439edbad6,
+        type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 3854812130382821519, guid: 7177f94ecf0cf1043a4790c439edbad6,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7177f94ecf0cf1043a4790c439edbad6, type: 3}
@@ -2094,8 +2116,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3854812130382821519, guid: 7177f94ecf0cf1043a4790c439edbad6,
         type: 3}
+      propertyPath: m_textAlignment
+      value: 65535
+      objectReference: {fileID: 0}
+    - target: {fileID: 3854812130382821519, guid: 7177f94ecf0cf1043a4790c439edbad6,
+        type: 3}
       propertyPath: m_fontColor32.rgba
       value: 4284831820
+      objectReference: {fileID: 0}
+    - target: {fileID: 3854812130382821519, guid: 7177f94ecf0cf1043a4790c439edbad6,
+        type: 3}
+      propertyPath: m_TextStyleHashCode
+      value: -1183493901
+      objectReference: {fileID: 0}
+    - target: {fileID: 3854812130382821519, guid: 7177f94ecf0cf1043a4790c439edbad6,
+        type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 3854812130382821519, guid: 7177f94ecf0cf1043a4790c439edbad6,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3854812130382821519, guid: 7177f94ecf0cf1043a4790c439edbad6,
         type: 3}
@@ -2266,8 +2308,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3854812130382821519, guid: 7177f94ecf0cf1043a4790c439edbad6,
         type: 3}
+      propertyPath: m_textAlignment
+      value: 65535
+      objectReference: {fileID: 0}
+    - target: {fileID: 3854812130382821519, guid: 7177f94ecf0cf1043a4790c439edbad6,
+        type: 3}
       propertyPath: m_fontColor32.rgba
       value: 4284831820
+      objectReference: {fileID: 0}
+    - target: {fileID: 3854812130382821519, guid: 7177f94ecf0cf1043a4790c439edbad6,
+        type: 3}
+      propertyPath: m_TextStyleHashCode
+      value: -1183493901
+      objectReference: {fileID: 0}
+    - target: {fileID: 3854812130382821519, guid: 7177f94ecf0cf1043a4790c439edbad6,
+        type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 3854812130382821519, guid: 7177f94ecf0cf1043a4790c439edbad6,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3854812130382821519, guid: 7177f94ecf0cf1043a4790c439edbad6,
         type: 3}
@@ -2436,8 +2498,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3854812130382821519, guid: 7177f94ecf0cf1043a4790c439edbad6,
         type: 3}
+      propertyPath: m_textAlignment
+      value: 65535
+      objectReference: {fileID: 0}
+    - target: {fileID: 3854812130382821519, guid: 7177f94ecf0cf1043a4790c439edbad6,
+        type: 3}
       propertyPath: m_fontColor32.rgba
       value: 4284831820
+      objectReference: {fileID: 0}
+    - target: {fileID: 3854812130382821519, guid: 7177f94ecf0cf1043a4790c439edbad6,
+        type: 3}
+      propertyPath: m_TextStyleHashCode
+      value: -1183493901
+      objectReference: {fileID: 0}
+    - target: {fileID: 3854812130382821519, guid: 7177f94ecf0cf1043a4790c439edbad6,
+        type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 3854812130382821519, guid: 7177f94ecf0cf1043a4790c439edbad6,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3854812130382821519, guid: 7177f94ecf0cf1043a4790c439edbad6,
         type: 3}
