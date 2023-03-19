@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD:NoBrainer/Assets/Sprites/Séparateur_D'écran.png.meta
-guid: 763f13b3f376dc549a1704473bbe5d3f
-=======
-guid: c43e98a5aab5847058061c7cc3bc780c
->>>>>>> ef3ad01e403eb8d14a8b05f66de6d71d19c2b5ef:NoBrainer/Assets/Character/Sprites/Enemy/Anim_Enemy_Idle-2.png.meta
+guid: eb3e26d0ce87a47b7996791550e4bbd6
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
