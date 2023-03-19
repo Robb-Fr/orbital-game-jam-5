@@ -9,6 +9,7 @@ public class EmitParticlesOnLand : MonoBehaviour
 
     public bool emitOnLand = true;
     public bool emitOnEnemyDeath = true;
+    public bool emitOnJump = true;
 
 #if UNITY_TEMPLATE_PLATFORMER
 
@@ -28,6 +29,13 @@ public class EmitParticlesOnLand : MonoBehaviour
         if (emitOnEnemyDeath) {
             Platformer.Gameplay.EnemyDeath.OnExecute += EnemyDeath_OnExecute;
             void EnemyDeath_OnExecute(Platformer.Gameplay.EnemyDeath obj) {
+                p.Play();
+            }
+        }
+
+        if (emitOnJump) {
+            Platformer.Gameplay.PlayerJumped.OnExecute += PlayerJumped_OnExecute;
+            void PlayerJumped_OnExecute(Platformer.Gameplay.PlayerJumped obj) {
                 p.Play();
             }
         }
