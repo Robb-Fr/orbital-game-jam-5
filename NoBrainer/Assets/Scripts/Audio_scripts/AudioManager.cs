@@ -48,8 +48,22 @@ public class AudioManager : MonoBehaviour
     void Start()
     {
 
-        // Play("MainTheme");
-        // Debug.Log("START");
+        //Play("MainTheme");
+        //Debug.Log("START");
+    }
+
+    public void ClearSongs()
+    {
+
+        while (activeSongs.Count != 0)
+        {
+            AudioSource song = activeSongs.Dequeue();
+            Debug.Log("STOP");
+            song.Stop();
+        }
+
+        activeSongs.Clear();
+
     }
 
 
@@ -64,15 +78,7 @@ public class AudioManager : MonoBehaviour
 
         if (name != "DialogueBlip")
         {
-            while (activeSongs.Count != 0)
-            {
-                AudioSource song = activeSongs.Dequeue();
-                Debug.Log("STOP");
-                song.Stop();
-            }
-
-            activeSongs.Clear();
-
+            ClearSongs();
         }
 
 

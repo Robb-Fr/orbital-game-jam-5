@@ -14,10 +14,14 @@ public class DialogueManager : MonoBehaviour
     public float typingSpeed = 20f;
     public Animator animator;
 
+    public Animator buttonAnimator;
+
     private Queue<string> sentences;
     private Queue<string> names;
 
     public bool LoadNextScene = false;
+
+    public bool LinkToButton = false;
 
     // Start is called before the first frame update
     void Start()
@@ -29,7 +33,7 @@ public class DialogueManager : MonoBehaviour
     void Update()
     {
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Return))
         {
             DisplayNextSentence();
         }
@@ -87,7 +91,6 @@ public class DialogueManager : MonoBehaviour
             dialogueText.text += letter;
             if (i % 2 == 0)
             {
-                Debug.Log("hello, type");
                 AudioManager.instance.Play("DialogueBlip");
             }
             i += 1;
@@ -99,6 +102,12 @@ public class DialogueManager : MonoBehaviour
     {
 
         animator.SetBool("IsOpen", false);
+
+        if (LinkToButton)
+        {
+            buttonAnimator.SetBool("ButtonOpen", true);
+        }
+
 
         if (LoadNextScene)
         {

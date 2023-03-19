@@ -1,0 +1,36 @@
+{
+    "array": [
+        {
+            "name": "Boss",
+            "sentence": "I’ve got a new contract for you."
+        },
+        {
+            "name": "Boss",
+            "sentence": "But you can’t fuck this one up, the guy is some big tech mania that's worth A LOT of money apparently, and he needs to go down tonight."
+        },
+        {
+            "name": "Boss",
+            "sentence": "For real though, if anything goes wrong, you, I, and all of us will be in big trouble."
+        },
+        {
+            "name": "Boss",
+            "sentence": "You should use the sewer network to get there, I'll send you the details."
+        },
+        {
+            "name": "Boss",
+            "sentence": "You're the only one I trust for this. Be quick, be discrete and everything will go well."
+        },
+        {
+            "name": "Boss",
+            "sentence": "Alright get moving, nights are short."
+        },
+        {
+            "name": "Boss",
+            "sentence": "And please..."
+        },
+        {
+            "name": "Boss",
+            "sentence": "Do. Not. Fuck it up."
+        }
+    ]
+}
