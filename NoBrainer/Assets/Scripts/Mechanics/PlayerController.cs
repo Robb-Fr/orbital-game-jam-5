@@ -50,6 +50,11 @@ namespace Platformer.Mechanics
         public float jumpHangMaxSpeedMult = 1.3f;
         public float coyoteTime = 0.15f;
         private float lastOnGroundTime = 0;
+        private float wallJumpCooldown = 0;
+        private float lastWalljumpTime = 0;
+        public float wallJumpTime = 0.15f;
+        public float wallJumpNonControlTime = 0.4f;
+        private bool canWallJump = false;
 
         public Bounds Bounds => collider2d.bounds;
 
@@ -66,9 +71,13 @@ namespace Platformer.Mechanics
         {
             if (controlEnabled)
             {
-                move.x = Input.GetAxis("Horizontal");
+                if ((Time.time - lastWalljumpTime) > wallJumpNonControlTime || canWallJump)
+                {
+                    move.x = Input.GetAxis("Horizontal");
+                }
                 lastOnGroundTime -= Time.deltaTime;
-                if (((lastOnGroundTime > 0 && jumpState != JumpState.Jumping && jumpState != JumpState.InFlight) || jumpCount > 0) && Input.GetButtonDown("Jump"))
+                wallJumpCooldown -= Time.deltaTime;
+                if (((lastOnGroundTime > 0 && jumpState != JumpState.Jumping && jumpState != JumpState.InFlight) || jumpCount > 0 || (wallJumpCooldown > 0 && canWallJump && lastOnGroundTime < 0)) && Input.GetButtonDown("Jump"))
                 {
                     jumpState = JumpState.PrepareToJump;
                 }
@@ -118,11 +127,20 @@ namespace Platformer.Mechanics
 
         protected override void ComputeVelocity()
         {
-            if (jump && (lastOnGroundTime > 0 || jumpCount > 0))
+            if (jump && (lastOnGroundTime > 0 || jumpCount > 0 || (wallJumpCooldown > 0 && canWallJump && lastOnGroundTime < 0)))
             {
                 velocity.y = jumpTakeOffSpeed * model.jumpModifier;
                 jump = false;
-                jumpCount -= 1;
+                if ((wallJumpCooldown > 0 && canWallJump && lastOnGroundTime < 0))
+                {
+                    canWallJump = false;
+                    lastWalljumpTime = Time.time;
+                    move.x *= -1;
+                }
+                else
+                {
+                    jumpCount -= 1;
+                }
             }
             else if (stopJump)
             {
@@ -203,8 +221,9 @@ namespace Platformer.Mechanics
                     //is this surface flat enough to land on?
                     if (currentNormal.y > minGroundNormalY)
                     {
-                        lastOnGroundTime = coyoteTime;
                         jumpCount = nbJumps;
+                        lastOnGroundTime = coyoteTime;
+                        canWallJump = true;
                         IsGrounded = true;
                         // if moving up, change the groundNormal to new surface normal.
                         if (yMovement)
@@ -212,6 +231,10 @@ namespace Platformer.Mechanics
                             groundNormal = currentNormal;
                             currentNormal.x = 0;
                         }
+                    }
+                    else
+                    {
+                        wallJumpCooldown = wallJumpTime;
                     }
                     if (IsGrounded)
                     {

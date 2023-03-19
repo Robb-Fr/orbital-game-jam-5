@@ -147,7 +147,7 @@ TextureImporter:
       213: 21300094
     second: Unity_Baddie_Idle_47
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -191,7 +191,7 @@ TextureImporter:
   spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 200
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -207,6 +207,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -219,7 +220,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
@@ -231,7 +232,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
     maxTextureSize: 2048
@@ -243,7 +244,19 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -1266,54 +1279,54 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Unity_Baddie_Idle_39: 21300078
-      Unity_Baddie_Idle_34: 21300068
-      Unity_Baddie_Idle_4: 21300008
-      Unity_Baddie_Idle_15: 21300030
-      Unity_Baddie_Idle_32: 21300064
-      Unity_Baddie_Idle_20: 21300040
-      Unity_Baddie_Idle_18: 21300036
-      Unity_Baddie_Idle_14: 21300028
-      Unity_Baddie_Idle_45: 21300090
-      Unity_Baddie_Idle_36: 21300072
-      Unity_Baddie_Idle_6: 21300012
+      Unity_Baddie_Idle_0: 21300000
       Unity_Baddie_Idle_1: 21300002
-      Unity_Baddie_Idle_28: 21300056
-      Unity_Baddie_Idle_46: 21300092
-      Unity_Baddie_Idle_16: 21300032
-      Unity_Baddie_Idle_33: 21300066
-      Unity_Baddie_Idle_7: 21300014
-      Unity_Baddie_Idle_27: 21300054
-      Unity_Baddie_Idle_29: 21300058
-      Unity_Baddie_Idle_19: 21300038
-      Unity_Baddie_Idle_23: 21300046
-      Unity_Baddie_Idle_11: 21300022
-      Unity_Baddie_Idle_42: 21300084
-      Unity_Baddie_Idle_2: 21300004
       Unity_Baddie_Idle_10: 21300020
+      Unity_Baddie_Idle_11: 21300022
+      Unity_Baddie_Idle_12: 21300024
+      Unity_Baddie_Idle_13: 21300026
+      Unity_Baddie_Idle_14: 21300028
+      Unity_Baddie_Idle_15: 21300030
+      Unity_Baddie_Idle_16: 21300032
+      Unity_Baddie_Idle_17: 21300034
+      Unity_Baddie_Idle_18: 21300036
+      Unity_Baddie_Idle_19: 21300038
+      Unity_Baddie_Idle_2: 21300004
+      Unity_Baddie_Idle_20: 21300040
       Unity_Baddie_Idle_21: 21300042
-      Unity_Baddie_Idle_3: 21300006
+      Unity_Baddie_Idle_22: 21300044
+      Unity_Baddie_Idle_23: 21300046
+      Unity_Baddie_Idle_24: 21300048
       Unity_Baddie_Idle_25: 21300050
+      Unity_Baddie_Idle_26: 21300052
+      Unity_Baddie_Idle_27: 21300054
+      Unity_Baddie_Idle_28: 21300056
+      Unity_Baddie_Idle_29: 21300058
+      Unity_Baddie_Idle_3: 21300006
+      Unity_Baddie_Idle_30: 21300060
+      Unity_Baddie_Idle_31: 21300062
+      Unity_Baddie_Idle_32: 21300064
+      Unity_Baddie_Idle_33: 21300066
+      Unity_Baddie_Idle_34: 21300068
+      Unity_Baddie_Idle_35: 21300070
+      Unity_Baddie_Idle_36: 21300072
+      Unity_Baddie_Idle_37: 21300074
+      Unity_Baddie_Idle_38: 21300076
+      Unity_Baddie_Idle_39: 21300078
+      Unity_Baddie_Idle_4: 21300008
       Unity_Baddie_Idle_40: 21300080
+      Unity_Baddie_Idle_41: 21300082
+      Unity_Baddie_Idle_42: 21300084
+      Unity_Baddie_Idle_43: 21300086
+      Unity_Baddie_Idle_44: 21300088
+      Unity_Baddie_Idle_45: 21300090
+      Unity_Baddie_Idle_46: 21300092
       Unity_Baddie_Idle_47: 21300094
       Unity_Baddie_Idle_5: 21300010
-      Unity_Baddie_Idle_44: 21300088
-      Unity_Baddie_Idle_35: 21300070
+      Unity_Baddie_Idle_6: 21300012
+      Unity_Baddie_Idle_7: 21300014
       Unity_Baddie_Idle_8: 21300016
-      Unity_Baddie_Idle_0: 21300000
-      Unity_Baddie_Idle_13: 21300026
-      Unity_Baddie_Idle_41: 21300082
-      Unity_Baddie_Idle_24: 21300048
-      Unity_Baddie_Idle_30: 21300060
-      Unity_Baddie_Idle_17: 21300034
-      Unity_Baddie_Idle_43: 21300086
       Unity_Baddie_Idle_9: 21300018
-      Unity_Baddie_Idle_12: 21300024
-      Unity_Baddie_Idle_22: 21300044
-      Unity_Baddie_Idle_37: 21300074
-      Unity_Baddie_Idle_31: 21300062
-      Unity_Baddie_Idle_38: 21300076
-      Unity_Baddie_Idle_26: 21300052
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

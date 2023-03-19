@@ -11,7 +11,7 @@ namespace Platformer.View
         /// <summary>
         /// Movement of the layer is scaled by this value.
         /// </summary>
-        public Vector3 movementScale = Vector3.one;
+        public Vector3 movementScale = new Vector3(1, 0, 1);
 
         Transform _camera;
 
