@@ -1,0 +1,64 @@
+{
+    "array": [
+        {
+            "name": "Barman",
+            "sentence": "So I guess you're staying here tonight?"
+        },
+        {
+            "name": "Client",
+            "sentence": "He'll kill me man! I told you, he's completely out of his mind!"
+        },
+        {
+            "name": "Barman",
+            "sentence": "These fucking implants... Trust me I've seen this way too much."
+        },
+        {
+            "name": "Client",
+            "sentence": "Oh bite me! Not all your problems are on Neurotech!"
+        },
+        {
+            "name": "Barman",
+            "sentence": "No, for real. Listen, I see a lot of people passing here right? And some old clients that I've known for years..."
+        },
+        {
+            "name": "Barman",
+            "sentence": "... and overnight, completely different people! The only thing that changed? They got this shit installed in their brain."
+        },
+        {
+            "name": "Client",
+            "sentence": "Oh come on, you're blaming the implants for some rummies who can't control themselves after one too many drinks."
+        },
+        {
+            "name": "Barman",
+            "sentence": "No, hear me out! You know Thomas right? He left his man last month, right after getting implanted. They had been together for 20 years! No explanation, nothing, he just said he did not see himself living like this anymore. Next thing you know, he's with some 20 year-old girl. Tom! With a girl!"
+        },
+        {
+            "name": "Client",
+            "sentence": "Hey, whatever makes him happy I guess."
+        },
+        {
+            "name": "Barman",
+            "sentence": "And I've seen a whole lot of good cops getting the federal implant like your buddy, who turned bat shit crazy after that, shooting black people on sight. It's not about you man, it's this crap in his brain that's telling him you're the danger."
+        },
+        {
+            "name": "Client",
+            "sentence": "Yeah well, not like that would change from the usual cops."
+        },
+        {
+            "name": "Client",
+            "sentence": "... Not Daniel though, he's not like this..."
+        },
+        {
+            "name": "Client",
+            "sentence": "Maybe you're right..."
+        },
+        {
+            "name": "Client",
+            "sentence": "Anyway, you've got a room I could stay in tonight?"
+        },
+        {
+            "name": "Barman",
+            "sentence": "Of course, for as long as you'll need."
+        }
+    ]
+}

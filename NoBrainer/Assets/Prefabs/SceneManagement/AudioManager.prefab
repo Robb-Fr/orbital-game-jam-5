@@ -51,4 +51,34 @@ MonoBehaviour:
     volume: 0.1
     pitch: 1
     source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 4843b7f302da5aa4fb4c5b6a7212a5f8, type: 3}
+    name: MainTheme
+    loop: 1
+    volume: 0.803
+    pitch: 1
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: a2f4053a567fab74ba203167a169eac8, type: 3}
+    name: Phone
+    loop: 1
+    volume: 0.401
+    pitch: 1
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 2cc966e973f359a46a63dd9c4fcd7f58, type: 3}
+    name: Epic
+    loop: 1
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 6d4c9a6084e7290469a383b4101d5f70, type: 3}
+    name: gunshot
+    loop: 0
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 260ce5fb8cd47b74399b85a1241df6ff, type: 3}
+    name: end_sound
+    loop: 1
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
   hasTriggered: 0

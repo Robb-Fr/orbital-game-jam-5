@@ -15,9 +15,7 @@ public class DialogueStarter : MonoBehaviour
     public void TriggerDialogue()
     {
         DialogueLine[] dialogue = JSONDialogue.ImportJSONDialogue(dialoguePath);
-        Debug.Log(dialogue[0].sentence);
         DialogueManager dialogueManager = FindObjectOfType<DialogueManager>();
-        Debug.Log(dialogueManager);
         dialogueManager.StartDialogue(dialogue, loadNextScene);
     }
 
