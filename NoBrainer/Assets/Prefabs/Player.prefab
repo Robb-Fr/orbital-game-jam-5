@@ -51,7 +51,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minGroundNormalY: 0.9
-  gravityModifier: 8
+  gravityModifier: 7
   velocity: {x: 0, y: 0}
   jumpAudio: {fileID: 8300000, guid: 67975c08d56ceb147bad38572d805aa8, type: 3}
   respawnAudio: {fileID: 8300000, guid: e18959d46b63f3c4c8cc020a433cf848, type: 3}
@@ -69,6 +69,8 @@ MonoBehaviour:
   jumpHangGravityMult: 0.5
   jumpHangMaxSpeedMult: 1.3
   coyoteTime: 0.15
+  wallJumpTime: 0.15
+  wallJumpNonControlTime: 0.4
 --- !u!212 &212064061491315838
 SpriteRenderer:
   m_ObjectHideFlags: 0
