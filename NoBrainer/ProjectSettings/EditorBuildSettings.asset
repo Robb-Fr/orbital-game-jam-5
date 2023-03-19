@@ -12,6 +12,15 @@ EditorBuildSettings:
     path: Assets/Scenes/StartScene.unity
     guid: f98ad0ca9e60e3a4d9ee6bf5110b9892
   - enabled: 1
+    path: Assets/Scenes/TomScene2.unity
+    guid: ab294137159de435bbf6dd8758875b24
+  - enabled: 1
+    path: Assets/Scenes/TomScene3.unity
+    guid: 664eca3b465e94e76a6b7783aa97b3d3
+  - enabled: 1
+    path: Assets/Scenes/TomScene4.unity
+    guid: e00b9e3b674fc4a5fae21f2eae416895
+  - enabled: 1
     path: Assets/Scenes/EndScene.unity
     guid: 17d680921eef58d4fa27e8b9c02b2324
   - enabled: 1
